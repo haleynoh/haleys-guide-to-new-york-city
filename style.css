@@ -2,8 +2,12 @@
  @font-face {
  	font-family: NewYork;
  	src: url('NewYork.otf');
- 	font-family: Lora;
+ }
+@font-face {
+  	font-family: Lora;
  	src: url('Lora.ttf');
+ }
+ @font-face {
  	font-family: DMSerif;
  	src: url('DMSerif.ttf');
  }
