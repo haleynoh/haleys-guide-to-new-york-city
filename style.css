@@ -45,6 +45,13 @@
 	color:#B9A390;
 }
 
+	/*MOBILE - nav*/
+	@media only screen and (max-width: 480px) {
+		.nav {
+			font-size:13px;
+		}
+	}
+
 /*title*/
 .title {
 	font-family: NewYork;
@@ -62,6 +69,25 @@
 	text-align: center;
 }
 
+.titleDescription {
+	font-family: Lora;
+	color: #E0DBD7;
+	margin: 10px;
+	font-size: 15px;
+	text-align: center;
+	}
+
+	/*MOBILE - title*/
+	@media only screen and (max-width: 480px) {
+		.title {
+			font-size: 40px;
+		}
+		.titleDescription {
+			font-size: 11px;
+
+		}
+	}
+
 /*introduction*/
 .introductionSection {
  	background-color:#1C1C1D;
@@ -76,6 +102,13 @@
 	width: 58%;
 	margin: auto;
 	padding: 20px;
+}
+
+.profile {
+	max-width:200px;
+	max-height: 300px;
+	width: auto;
+	height:auto;
 }
 
 .introText {
@@ -107,6 +140,118 @@
 	padding-top: 40px;
 	padding-bottom: 100px;
 }
+
+.profileImg1 {
+	width: 20%;
+	min-width: 150px;
+	min-height: 150px;
+	width: auto;
+	height: auto;
+}
+
+.profileImg2 {
+	width: 20%;
+	min-width: 150px;
+	min-height: 150px;
+	width: auto;
+	height: auto;
+}
+
+.profileImg3 {
+	width: 20%;
+	min-width: 150px;
+	min-height: 150px;
+	width: auto;
+	height: auto;
+}
+
+.profileImg4 {
+	width: 20%;
+	min-width: 150px;
+	min-height: 150px;
+	width: auto;
+	height: auto;
+}
+
+	/*MOBILE - introduction*/
+	@media only screen and (max-width: 480px) {
+		.introductionSection {
+		 	margin-top: 380px;
+		 	padding-top: 30px;
+		}
+
+		.introContent {
+			display: flex;
+			flex-direction: column;
+			align-items: left;
+			width: 80%;
+			margin: auto;
+			padding: 5px;
+		}
+
+		.profile {
+			max-width:100px;
+			max-height: 200px;
+			width: auto;
+			height:auto;
+		}
+
+		.introText {
+			display: flex;
+			flex-direction: column;
+			padding-left: 3px;
+		}
+
+		.introTitle {
+			font-size: 30px;
+		}
+
+		.introBody {
+			font-size: 12px;
+		}
+
+		.introGallery {
+			display: flex;
+			flex-flow:column-wrap;
+			width: 80%;
+			min-width: 50px;
+			padding-top: 20px;
+			padding-bottom: 40px;
+		}
+
+		.profileImg1 {
+			width: 20%;
+			min-width: 50px;
+			min-height: 50px;
+			width: auto;
+			height: auto;
+		}
+
+		.profileImg2 {
+			width: 20%;
+			min-width: 50px;
+			min-height: 50px;
+			width: auto;
+			height: auto;
+		}
+
+		.profileImg3 {
+			width: 20%;
+			min-width: 50px;
+			min-height: 50px;
+			width: auto;
+			height: auto;
+		}
+
+		.profileImg4 {
+			width: 20%;
+			min-width: 50px;
+			min-height: 50px;
+			width: auto;
+			height: auto;
+		}
+
+	}
 
 /*Brooklyn & Manhattan sections*/
 .brooklynSection {
@@ -164,6 +309,30 @@
 	color:#fff;
 }
 
+	@media only screen and (max-width: 480px) {
+		.brooklynSection {
+			margin-top: 380px;
+		}
+
+		/*only for itinerary section*/
+		.brooklynSection2 {
+			margin-top: 30px;
+		}
+
+		.brooklynTitle {
+			font-size: 40px;
+		    border-bottom: 3px solid #E0DBD7;
+		    padding-left: 60px;
+		}
+
+		.manhattanTitle {
+			font-size: 40px;
+			border-bottom: 3px solid #908C83;
+		    padding-right: 60px;
+		}
+
+	}
+
 /*subway section*/
 
 .subwaySection {
@@ -206,7 +375,6 @@
 	text-align: center;
 }
 
-
 .subwayResources a, .subwayResources a:visited, .subwayResources a:active {
 	padding-left:10px;
 	padding-right: 10px;
@@ -220,6 +388,33 @@
 .subwayResources a:hover{
 	color:#fff;
 }
+
+	/*MOBILE - subway*/
+	@media only screen and (max-width: 480px) {
+		.subwaySection {
+			margin-top: 380px;
+		}
+
+		.subwayTitle {
+			font-size: 30px;
+		}
+
+		.subwayText {
+			font-size: 14px;
+		}
+
+		.subwayResources {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-bewteen;
+			font-size: 14px;
+		}
+
+		.subwayResources a, .subwayResources a:visited, .subwayResources a:active {
+			padding-bottom: 10px;
+		}
+
+	}
 
 /*restaurants background*/
 #restaurantsBody {
@@ -271,15 +466,15 @@
 	height: 400px;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	padding: 25px;
+	padding: 5px;
 	display: flex;
 }
 
 .column1 {
 	width: 50%;
-	padding: 10px;
+	padding: 5px;
 	min-width: 220px;
-	margin-right: 20px;
+	margin-right: 5px;
 	background-color: #E0DBD7;
 	display: inline-flex;
 	flex-direction: column;
@@ -329,3 +524,40 @@
 	height: auto;
 	object-fit: cover; /* NOTE: Prevent image from getting squished */
 }
+
+	/*MOBILE - content*/
+	@media only screen and (max-width: 480px) {
+		.box {
+			min-width: 300px;
+			height: 250px;
+		}
+
+		.column1 {
+			min-width: 100px;
+		}
+
+		.column2 {
+			min-width: 100px;
+		}
+
+		.boxTitle {
+			font-size: 15px;
+		}
+
+		.description {
+			font-size: 10px;
+			padding: 5px;
+		}
+
+		.address {
+			font-size: 6px;
+			margin-top: 5px;
+			padding: 1px;
+		}
+
+		.website {
+			margin-top: 5px;
+			font-size: 8px;
+		}
+
+	}
