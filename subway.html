@@ -6,6 +6,7 @@
 	<title>Subway</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" href="#" type="image/icon type">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body id="subwayBody">
@@ -19,8 +20,8 @@
 	</div>
 
 	<!-- title -->
-	<div class="title">Subway</div>
-	<div class="titleDescription">The NYC subway may seem intimidating at first.<br>Here are some resources to help you out.</div>
+	<div class="title" data-aos="fade" data-aos-duration="2000">Subway</div>
+	<div class="titleDescription" data-aos="slide-up" data-aos-duration="500">The NYC subway may seem intimidating at first.<br>Here are some resources to help you out.</div>
 
 	<div class="subwaySection">
 		<div class="subwayTitle">NYC Subway Map & Trains</div>
@@ -44,6 +45,11 @@
 		</div>
 
 	</div>
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+    	AOS.init();
+  	</script>
 
 </body>
 
